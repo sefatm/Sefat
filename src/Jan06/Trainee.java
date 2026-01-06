@@ -11,4 +11,23 @@ package jan06;
  */
 public class Trainee {
     
+    private Address address;
+
+    public Trainee(Address address) {
+        this.address = address;
+    }
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
+    }
+
+    @Override
+    public String toString() {
+        return "Trainee{" + "address=" + address + '}';
+    }
+    
 }

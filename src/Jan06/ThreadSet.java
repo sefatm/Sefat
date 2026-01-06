@@ -3,12 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package jan06;
+package Jan06;
 
-/**
- *
- * @author Sefat Mahmud
- */
-public class Exception {
+import java.util.List;
+
+public class ThreadSet {
+    public List ThreadSet(){
+        List<Integer> l = new ArrayList<>();
+        
+    }
     
 }
