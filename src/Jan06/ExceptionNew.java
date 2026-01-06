@@ -28,6 +28,7 @@ public class ExceptionNew {
         finally{
         System.out.println("");
         System.out.println("Exception caught successfully.");
+        
     }
         
     }          
