@@ -10,10 +10,5 @@ package Jan06;
  * @author Sefat Mahmud
  */
 public class First {
-    puiblic int[] getArray(){
-        int[] arr = new int[5];
-            for (int i = 0; i < arr.length; i++) {
-                
-            }
-    }
+    
 }

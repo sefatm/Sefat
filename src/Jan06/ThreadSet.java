@@ -8,9 +8,6 @@ package Jan06;
 import java.util.List;
 
 public class ThreadSet {
-    public List ThreadSet(){
-        List<Integer> l = new ArrayList<>();
-        
-    }
+   
     
 }
