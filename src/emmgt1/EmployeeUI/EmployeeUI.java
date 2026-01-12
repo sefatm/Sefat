@@ -5,6 +5,7 @@
  */
 package emmgt1.EmployeeUI;
 
+import empmgt.employeeController.EmployeeController;
 import empmgt.model.Employee;
 
 /**
@@ -203,7 +204,19 @@ public class EmployeeUI extends javax.swing.JFrame {
         e.setAge(Integer.valueOf(age.getText()));
         e.setAddress(address.getText());
         
+        EmployeeController ec = new EmployeeController();
+        Employee emp = ec.create(e);
         
+        textarea.setText(
+        "ID         : " + emp.getId() + "\n" +
+        "Name       : " + emp.getFname() + "\n" +
+        "Designation: " + emp.getDesignation() + "\n" +
+        "Department : " + emp.getDepartment() + "\n" +
+        "Salary     : " + emp.getSalary() + "\n" +
+        "Age        : " + emp.getAge() + "\n" +
+        "Address    : " + emp.getAddress() + "\n"
+                
+        );
     }//GEN-LAST:event_btnsaveActionPerformed
 
     /**
