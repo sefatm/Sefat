@@ -1,14 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package oop.abstraction;
 
-/**
- *
- * @author user
- */
 
 interface A{
     void v();
@@ -48,7 +40,7 @@ public class Abstraction extends B implements A {
 
     @Override
     public void v() {
-        System.out.println("I am Interface");; //To change body of generated methods, choose Tools | Templates.
+        System.out.println("I am Interface"); //To change body of generated methods, choose Tools | Templates.
     }
     
 }
