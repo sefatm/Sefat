@@ -1,27 +1,26 @@
 
-package oop.abstraction;
+package javaFinalExamPractice.oop.abstraction;
 
-public class Abstraction extends B implements A {
-    public static void main(String[] args) {
-        Abstraction obj = new Abstraction();
+public class Abstraction1 extends B implements A {
+     public static void main(String[] args) {
+        Abstraction1 obj = new Abstraction1();
         obj.v();
         obj.v1();
         obj.v2();
         obj.v3();
     }
-
-    @Override
+     
+     @Override
     public void v() {
         System.out.println("I am Interface"); //To change body of generated methods, choose Tools | Templates.
     }
-    
 }
 
 interface A{
     void v();
 }
 
-abstract class C {
+abstract class C{
     void v3(){
         System.out.println("Sefat Mahmud");
     }
@@ -42,4 +41,5 @@ class B extends C{
     void v3() {
         super.v3();
     }
+    
 }
