@@ -7,11 +7,12 @@ import java.util.Scanner;
 
 public class ConditionalSum {
     public static void main(String[] args) {
+        
         Scanner sc5 = new Scanner(System.in);
         int sum = 0;
         int num;
         
-        System.out.println("Enter a Number");
+        System.out.println("Enter a Number: ");
         
         while (true) {            
             num = sc5.nextInt();
@@ -20,7 +21,7 @@ public class ConditionalSum {
             }
             sum += num;
         }
-        System.out.println("Total Number: " + sum);
+        System.out.print("Total Number: " + sum + " ");
         sc5.close();
     }
 }

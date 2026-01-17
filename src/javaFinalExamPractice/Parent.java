@@ -6,25 +6,25 @@ Create a class with a method that prints â€œThis is parent classâ€� and
  */
 package javaFinalExamPractice;
 
-public class Super {
-    public void SuperMethod(){
+public class Parent {
+    public void ParentMethod(){
         System.out.println("This is a Parent class");
     }
 }
 
-class Sub extends Super{
-    public void SubMethod(){
+class Child extends Parent{
+    public void ChildMethod(){
         System.out.println("This is a Child class");
     }
 }
 
 class Test{
     public static void main(String[] args) {
-        Super obj = new Super();
-        obj.SuperMethod();
+        Parent obj = new Parent();
+        obj.ParentMethod();
         
-        Sub obj1 = new Sub();
-        obj1.SubMethod();
-        obj1.SuperMethod();
+        Child obj1 = new Child();
+        obj1.ChildMethod();
+        obj1.ParentMethod();
     }
 }

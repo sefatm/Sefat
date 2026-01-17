@@ -1,27 +1,25 @@
 /*
- Question:-06: Find out the Max-Min number among n number of values.
- */
+Question:-06: Find out the Max-Min number among n number of values.
+*/
 package javaFinalExamPractice.logical;
 
 import java.util.Scanner;
 
 public class MaxMin {
     public static void main(String[] args) {
+        
         Scanner sc4 = new Scanner(System.in);
         
-        System.out.println("Enter a Length: ");
-        int m = sc4.nextInt();
+        int[] arr = new int[3];
+        System.out.println("Enter a Number: ");
         
-        int[] arr = new int[m];
-        System.out.println("Enter a Number");
-        
-        for (int i = 0; i < m; i++) {
+        for (int i = 0; i < 3; i++) {
             arr[i] = sc4.nextInt();
         }
         int max = arr[0];
         int min = arr[0];
         
-        for (int i = 1; i < m; i++) {
+        for (int i = 1; i < 3; i++) {
             if(arr[i] > max){
                 max = arr[i];
             } if(arr[i] < min) {

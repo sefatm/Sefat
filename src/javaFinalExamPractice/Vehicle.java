@@ -8,7 +8,7 @@ package javaFinalExamPractice;
 
 public class Vehicle {
     void vehicleRun(){
-        System.out.println("The Vehicle is Running");
+        System.out.println("The Vehicle is Running.");
     }
 }
 
@@ -16,7 +16,7 @@ class Car extends Vehicle{
 
     @Override
     void vehicleRun() {
-        System.out.println("The Car is Running"); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("The Car is Running."); //To change body of generated methods, choose Tools | Templates.
     }
 }
 
