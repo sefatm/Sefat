@@ -9,7 +9,7 @@ public class Fibonacci {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        System.out.println("Enter a Number");
+        System.out.print("Enter a Number: ");
         int a = sc.nextInt();
         int first = 0;
         int second = 1;
