@@ -55,8 +55,16 @@ public class EmployeeUI extends javax.swing.JFrame {
 
         jLabel1.setText("Last Name");
 
+        lname.setText("Mahmud");
+        lname.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                lnameActionPerformed(evt);
+            }
+        });
+
         jLabel2.setText("First Name");
 
+        fname.setText("Sefat");
         fname.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 fnameActionPerformed(evt);
@@ -65,6 +73,13 @@ public class EmployeeUI extends javax.swing.JFrame {
 
         jLabel3.setText("Designation");
 
+        designation.setText("Trainee");
+        designation.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                designationActionPerformed(evt);
+            }
+        });
+
         jLabel4.setText("Department");
 
         jTextField4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
@@ -72,11 +87,24 @@ public class EmployeeUI extends javax.swing.JFrame {
 
         jLabel5.setText("Salary");
 
+        salary.setText("20000");
+
         jLabel6.setText("Age");
+
+        age.setText("27");
 
         jLabel7.setText("Address");
 
+        address.setText("Rampura");
+
         jLabel8.setText("ID");
+
+        department.setText("Java");
+        department.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                departmentActionPerformed(evt);
+            }
+        });
 
         id.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -234,6 +262,18 @@ public class EmployeeUI extends javax.swing.JFrame {
     private void fnameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fnameActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_fnameActionPerformed
+
+    private void lnameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lnameActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lnameActionPerformed
+
+    private void designationActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_designationActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_designationActionPerformed
+
+    private void departmentActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_departmentActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_departmentActionPerformed
 
     /**
      * @param args the command line arguments

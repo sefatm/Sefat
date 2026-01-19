@@ -17,9 +17,9 @@ public class Employee {
     private String department;
     private double salary;
     private int age;
-    private String addrss;
+    private String address;
 
-    public Employee(int id, String fname, String lname, String designation, String department, double salary, int age, String addrss) {
+    public Employee(int id, String fname, String lname, String designation, String department, double salary, int age, String address) {
         this.id = id;
         this.fname = fname;
         this.lname = lname;
@@ -27,7 +27,7 @@ public class Employee {
         this.department = department;
         this.salary = salary;
         this.age = age;
-        this.addrss = addrss;
+        this.address = address;
     }
 
     public Employee() {
@@ -89,14 +89,12 @@ public class Employee {
         this.age = age;
     }
 
-    public String getAddrss() {
-        return addrss;
+    public String getAddress() {
+        return address;
     }
 
-    public void setAddrss(String addrss) {
-        this.addrss = addrss;
+    public void setAddress(String address) {
+        this.address = address;
     }
-    
-    
-    
+
 }

@@ -3,19 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package emmgt1.EmployeeUI.util;
+package emmgt1.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 
 /**
  *
- * @author Sefat Mahmud
+ * @author user
  */
-public class DBConnection {
+public class BDConnection {
     static Connection con;
     public static Connection getConnection(){
-        
+       
         try {
             Class.forName("com.mysql.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/employee_information";

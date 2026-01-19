@@ -5,10 +5,6 @@
  */
 package jan06;
 
-/**
- *
- * @author Sefat Mahmud
- */
 public class Trainee {
     
     private Address address;

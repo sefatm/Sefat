@@ -12,10 +12,7 @@ import java.sql.Statement;
 import javax.swing.JOptionPane;
 import R68_1293660.cgnt.util.DBConnection;
 
-/**
- *
- * @author Sefat Mahmud
- */
+
 public class StudentDAO {
     public Student insert(Student s){
         int id = s.getId();
