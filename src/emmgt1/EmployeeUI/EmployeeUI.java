@@ -57,6 +57,12 @@ public class EmployeeUI extends javax.swing.JFrame {
 
         jLabel2.setText("First Name");
 
+        fname.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                fnameActionPerformed(evt);
+            }
+        });
+
         jLabel3.setText("Designation");
 
         jLabel4.setText("Department");
@@ -224,6 +230,10 @@ public class EmployeeUI extends javax.swing.JFrame {
     private void idActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_idActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_idActionPerformed
+
+    private void fnameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fnameActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_fnameActionPerformed
 
     /**
      * @param args the command line arguments
