@@ -6,9 +6,9 @@
 package emmgt1.employeeDAO;
 
 
-import emmgt1.EmployeeUI.util.DBConnection;
-import empmgt.model.Employee;
-import empmgt.ui.EmployeeUI;
+import emmgt1.EmployeeUI.EmployeeUI;
+import emmgt1.model.Employee;
+import emmgt1.util.BDConnection;
 import java.sql.Connection;
 import java.sql.Statement;
 import javax.swing.JOptionPane;
@@ -24,10 +24,10 @@ public class EmployeeDAO {
         double salary = e.getSalary();
         int age = e.getAge();
         String address = e.getAddress();
-        String sql = "INSERT INTO employee (fname, lname, designation, department, salary, age, address) VALUES ('"+fname+"', '"+lname+"', '"+designation+"', '"+department+"', '"+salary+"', '"+age+"', '"+address+"')";
+        String sql = "INSERT INTO EMPLOYEE (fName, lName, designation, department, salary, age, address) VALUES ('"+fname+"', '"+lname+"', '"+designation+"', '"+department+"', '"+salary+"', '"+age+"', '"+address+"')";
         
         try {
-            Connection con = DBConnection.getConnection();
+            Connection con = BDConnection.getConnection();
             Statement stmt = con.createStatement();
             int status = stmt.executeUpdate(sql);
             
