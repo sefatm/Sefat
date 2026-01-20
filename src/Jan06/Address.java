@@ -5,10 +5,6 @@
  */
 package Jan06;
 
-/**
- *
- * @author Sefat Mahmud
- */
 public class Address {
     
     private String area;
